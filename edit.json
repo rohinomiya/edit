@@ -1,0 +1,22 @@
+{
+    "UserCommands": [
+        {
+            "Command": "C:\\Program Files\\FireAlpaca\\FireAlpaca15\\FireAlpaca.exe", 
+            "FilePattern": "\\.(jpe?g|png|bmp|gif)$", 
+            "LineOption": "", 
+            "Option": ""
+        }, 
+        {
+            "Command": "C:\\Program Files\\AutoHotkey\\SciTE\\SciTE.exe", 
+            "FilePattern": "\\.ahk$", 
+            "LineOption": "", 
+            "Option": ""
+        }, 
+        {
+            "Command": "gvim.exe", 
+            "FilePattern": "\\..*$", 
+            "LineOption": "+[num]", 
+            "Option": "--remote-silent"
+        }
+    ]
+}
