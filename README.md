@@ -2,11 +2,12 @@
 
 ## Description
 
-引数として渡されたファイルを編集できるよう、別のプログラムに渡すコマンドラインツールです。
+引数として渡されたファイルを編集できるよう、別のプログラムに渡すコマンドラインツールです。  
 設定は edit.json ファイルを編集することで変更することができます。
 
 ## Usage
 
+```
 edit.exe [Options] [Files...]
 
 Options:
@@ -18,6 +19,7 @@ Options:
         do not input from stdin.
   -version
         Print version information and quit.
+```
 
 ## Install
 
