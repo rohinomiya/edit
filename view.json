@@ -1,20 +1,26 @@
 {
     "UserCommands": [
         {
+            "Command": "c:\\Users\\fukuda\\Dropbox\\bin\\Leeyes\\Leeyes.exe",
+            "FilePattern": "\\.(zip|rar)$", 
+            "LineOption": "", 
+            "Option": ""
+        }, 
+        {
+            "Command": "C:\\Program Files\\IrfanView\\i_view32.exe", 
             "FilePattern": "\\.(jpe?g|png|bmp|gif)$", 
-            "Command": "C:\\Program Files\\FireAlpaca\\FireAlpaca15\\FireAlpaca.exe", 
             "LineOption": "", 
             "Option": ""
         }, 
         {
-            "FilePattern": "\\.ahk$", 
             "Command": "C:\\Program Files\\AutoHotkey\\SciTE\\SciTE.exe", 
+            "FilePattern": "\\.ahk$", 
             "LineOption": "", 
             "Option": ""
         }, 
         {
-            "FilePattern": ".$", 
             "Command": "gvim.exe", 
+            "FilePattern": ".$", 
             "LineOption": "+[num]", 
             "Option": "--remote-silent"
         }
